@@ -1,0 +1,17 @@
+.shortsize{
+font-size: xx-large;
+color:rgb(252, 135, 89);
+}
+body{
+text-align: center;
+}
+canvas{
+animation-name: example;
+animation-duration:5s ;
+animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px rgb(58, 231, 36);
+    }
+    to{box-shadow: 1px 1px 38px rgb(185, 11, 69);}
+}
